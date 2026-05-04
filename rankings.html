@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VFC | Rankings</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="logo">VFC</div><div class="tagline">Official Rankings</div><div class="est">VOP Fight Club • Est. 2025</div></header>
+<nav><a href="index.html">Home</a><a class="active" href="rankings.html">Rankings</a><a href="callout.html">Submit a Callout</a></nav>
+<main>
+<h1 class="page-title">VFC Rankings</h1>
+<p class="subtitle">Two tiers per division: ✅ Contender Tier and 😂 Chud Tier. Only the owner can unlock editing.</p>
+<div class="admin-bar">
+  <span class="readonly-badge" id="edit-status">Read-only mode</span>
+  <input id="admin-password" type="password" placeholder="Owner password">
+  <button class="button" id="unlock-edit">Unlock Edit Mode</button>
+  <button class="button" id="lock-edit">Lock</button>
+</div>
+<p class="lock-message">Editing is locked for viewers.</p>
+<div id="rankings-root" class="locked"></div>
+</main>
+<footer>© 2025 VFC — VOP Fight Club</footer>
+<script src="script.js"></script>
+</body>
+</html>
