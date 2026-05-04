@@ -1,7 +1,7 @@
 // ===== EASY EDIT SECTION =====
 
 // Put your Google Form link here
-const GOOGLE_FORM_LINK = "https://forms.gle/PASTE-YOUR-LINK";
+const GOOGLE_FORM_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSdOdV4f96UcDe11BgHYPQJlB0aohGKC2lIXib1XnAZXhEsGhA/viewform?usp=header";
 
 // Edit fighters here
 const VFC_DATA = {
